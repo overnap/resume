@@ -80,6 +80,7 @@
 
 % Used to create large resume section
 \newenvironment{rSection}[1]{
+  \Large
   \sectionskip
   \MakeUppercase{\bf #1}
   \sectionlineskip
@@ -88,6 +89,8 @@
     \setlength{\leftmargin}{1.5em}
   }
   \item[]
+  \rm
+  \large
 }{
   \end{list}
 }
